@@ -124,7 +124,7 @@ export default function ChatInterface() {
   };
 
   return (
-    <div className="flex flex-col h-screen max-w-4xl mx-auto bg-white shadow-2xl overflow-hidden border-x border-zinc-200">
+    <div className="flex flex-col h-screen w-full bg-white overflow-hidden">
       {/* Header */}
       <header className="px-6 py-4 border-bottom border-zinc-100 flex items-center justify-between bg-white/80 backdrop-blur-md sticky top-0 z-10">
         <div className="flex items-center gap-3">
